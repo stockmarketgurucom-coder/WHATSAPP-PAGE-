@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>WhatsApp Page </title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WhatsApp Trading Landing Page</title>
+
+  <!-- Font Awesome Icons -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    body {
+
+      background: #fff;
+
+      color: #111;
+
+      display: flex;
+
+      flex-direction: column;
+
+      min-height: 100vh;
+
+    }
+
+    /* Header */
+
+    header {
+
+      padding: 15px 20px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      border-bottom: 1px solid #eee;
+
+    }
+
+    .menu-icon {
+
+      font-size: 22px;
+
+      cursor: pointer;
+
+    }
+
+    .logo-center {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 8px;
+
+      font-size: 20px;
+
+      font-weight: bold;
+
+      color: #25d366;
+
+    }
+
+    .logo-center img {
+
+      height: 28px;
+
+    }
+
+    /* Profile Section */
+
+    .profile {
+
+      text-align: center;
+
+      padding: 30px 20px;
+
+    }
+
+    .profile img {
+
+      width: 120px;
+
+      height: 120px;
+
+      border-radius: 50%;
+
+      margin-bottom: 15px;
+
+      object-fit: cover;
+
+    }
+
+    .profile h2 {
+
+      font-size: 20px;
+
+      margin-bottom: 12px;
+
+    }
+
+    .profile p {
+
+      background: #f1f1f1;
+
+      display: inline-block;
+
+      padding: 10px 15px;
+
+      border-radius: 10px;
+
+      margin-bottom: 20px;
+
+    }
+
+    .btn {
+
+      background: #25d366;
+
+      color: #fff;
+
+      padding: 12px 30px;
+
+      border-radius: 30px;
+
+      border: none;
+
+      font-size: 16px;
+
+      cursor: pointer;
+
+      text-decoration: none;
+
+      display: inline-block;
+
+    }
+
+    .btn:hover {
+
+      background: #20b954;
+
+    }
+
+    .download {
+
+      margin-top: 10px;
+
+      font-size: 14px;
+
+    }
+
+    .download a {
+
+      color: #25d366;
+
+      text-decoration: none;
+
+    }
+
+    /* Footer */
+
+    footer {
+
+      background: #111b21;
+
+      color: #ccc;
+
+      padding: 25px 20px;
+
+      margin-top: auto;
+
+    }
+
+    footer .social {
+
+      text-align: center;
+
+      margin-bottom: 20px;
+
+    }
+
+    footer .social a {
+
+      margin: 0 12px;
+
+      font-size: 22px;
+
+      color: #fff;
+
+      text-decoration: none;
+
+    }
+
+    footer .social a:hover {
+
+      color: #25d366;
+
+    }
+
+    .footer-top,
+
+    .footer-bottom {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      flex-wrap: wrap;
+
+      margin-bottom: 15px;
+
+    }
+
+    .footer-links {
+
+      margin: 10px;
+
+    }
+
+    .footer-links h4 {
+
+      color: #fff;
+
+      margin-bottom: 8px;
+
+      font-size: 15px;
+
+    }
+
+    .footer-links a {
+
+      color: #ccc;
+
+      text-decoration: none;
+
+      display: block;
+
+      margin-bottom: 6px;
+
+      font-size: 14px;
+
+    }
+
+    .footer-links a:hover {
+
+      text-decoration: underline;
+
+    }
+
+    footer .bottom {
+
+      text-align: center;
+
+      font-size: 12px;
+
+      color: #888;
+
+      margin-top: 10px;
+
+    }
+
+    /* Mobile Responsive */
+
+    @media (max-width: 768px) {
+
+      .footer-top, .footer-bottom {
+
+        flex-direction: column;
+
+        text-align: center;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+
+    <i class="fas fa-bars menu-icon"></i>
+
+    <div class="logo-center">
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+
+      WhatsApp
+
+    </div>
+
+    <div></div>
+
+  </header>
+
+  <!-- Profile Section -->
+
+  <div class="profile">
+
+    <!-- Trading Signal Logo (Free Flaticon) -->
+
+    <img src="https://cdn-icons-png.flaticon.com/512/6460/6460177.png" alt="Trading Signal Icon">
+
+    <h2>PORTFOLIO MANAGEMENT SERVICE</h2>
+
+    <p>Account handling sir</p><br>
+
+    <a id="chatBtn" class="btn" href="#">Continue Chat</a>
+
+    <p class="download">Don't have the app? <a href="#">Download it now</a></p>
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <div class="social">
+
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+      <a href="#"><i class="fab fa-instagram"></i></a>
+
+      <a href="#"><i class="fab fa-facebook"></i></a>
+
+      <a href="#"><i class="fab fa-youtube"></i></a>
+
+    </div>
+
+    <!-- Top Section -->
+
+    <div class="footer-top">
+
+      <div class="footer-links">
+
+        <h4>What we do</h4>
+
+        <a href="#">Features</a>
+
+        <a href="#">Blog</a>
+
+        <a href="#">Security</a>
+
+        <a href="#">For Business</a>
+
+      </div>
+
+      <div class="footer-links">
+
+        <h4>Who we are</h4>
+
+        <a href="#">About us</a>
+
+        <a href="#">Careers</a>
+
+        <a href="#">Brand Center</a>
+
+        <a href="#">Privacy</a>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Section -->
+
+    <div class="footer-bottom">
+
+      <div class="footer-links">
+
+        <h4>Use WhatsApp</h4>
+
+        <a href="#">Android</a>
+
+        <a href="#">iPhone</a>
+
+        <a href="#">Mac/PC</a>
+
+        <a href="#">WhatsApp Web</a>
+
+      </div>
+
+      <div class="footer-links">
+
+        <h4>Need help?</h4>
+
+        <a href="#">Contact Us</a>
+
+        <a href="#">Help Center</a>
+
+        <a href="#">Apps</a>
+
+        <a href="#">Security Advisories</a>
+
+      </div>
+
+    </div>
+
+    <div class="bottom">
+
+      Sitemap • Terms & Privacy Policy • 2025 © WhatsApp LLC
+
+    </div>
+
+  </footer>
+
+  <!-- JavaScript for Redirect -->
+
+  <script>
+
+    const link = "https://wa.me/917023861673?text=Account%20handling%20sir";
+
+    // Page open -> auto redirect after 5 sec
+
+    window.onload = function(){
+
+      setTimeout(function(){
+
+        window.location.href = link;
+
+      }, 5000);
+
+    };
+
+    // Button click -> instant redirect
+
+    document.getElementById("chatBtn").addEventListener("click", function(e){
+
+      e.preventDefault();
+
+      window.location.href = link;
+
+    });
+
+  </script>
+
+</body>
+
+</html>
+    
+  </body>
+  
+</html>
